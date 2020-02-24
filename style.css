@@ -65,7 +65,7 @@ footer{
 @keyframes extra {
     from {background-color: darkslategray;}
     to {background-color: gray;}
-  }
+}
 
 .card{
     border: none;
