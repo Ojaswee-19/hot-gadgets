@@ -19,7 +19,7 @@ border-radius: 25%;
     color: white;
     border-radius: 10px;
     padding: 10px 20px;
-    margin: 10px 200px;
+    margin: 10px 20px;
     
 }
 .carousel-background{
@@ -27,4 +27,57 @@ border-radius: 25%;
 }
 .col-md-6 h1{
 padding-bottom: 20px;
+}
+.smartphones-background{
+    padding-top: 100px;
+}
+.card-deck{
+    padding-top: 50px;
+}
+.see-all-button{
+    color: gold;
+    border: none;
+    background-color: white;
+    height: 40px;
+}
+.card{
+    text-align: center;
+}
+.categories{
+    text-align: center;
+}
+.categories h2::after {
+    content: "";
+    background-image: linear-gradient(to right, rgb(243, 201, 86), orange 50%);
+    width: 140px;
+    height: 10px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+footer{
+    text-align: center;
+    animation-name: extra;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+
+}
+@keyframes extra {
+    from {background-color: darkslategray;}
+    to {background-color: gray;}
+  }
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.vertical-box:hover{
+    box-shadow: 5px 5px 10px gray;
+    padding: 20px 30px;
+    margin-bottom: 50px;
+}
+.column:hover{
+    box-shadow: 10px 10px 15px gray;
+    padding: 30px 30px;
 }
